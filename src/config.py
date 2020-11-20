@@ -23,29 +23,27 @@ def create_driver():
     return driver
 
 
-URL = "https://www.ea.com/pl-pl/fifa/ultimate-team/web-app/"
+URL = "https://www.ea.com/fifa/ultimate-team/web-app/"
 
 EA_EMAIL = "EA@e.ea.com"
 
 PLAYER = {
-    "name": "Kloster",
-    "cost": 15000,
+    "name": "ake",
+    "cost": 5200,
 }
 
-INCREASE_COUNT = 20
+INCREASE_COUNT = 10
 
 LOGIN_MANUALLY = True
 
 # Credentials - fill in if LOGIN_MANUALLY is False
 
 USER = {
-    "email": "your_email@example.com",
-    "password": "your_password",
+    "email": "playstationgame245@gmail.com",
+    "password": "Children1",
 }
 
 EMAIL_CREDENTIALS = {
     "email": "your_email@example.com",
     "password": "your_password",
 }
-
-

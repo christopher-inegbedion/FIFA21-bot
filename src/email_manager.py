@@ -2,7 +2,7 @@ import email
 import imaplib
 import sys
 
-from src.config import EMAIL_CREDENTIALS, EA_EMAIL
+from config import EMAIL_CREDENTIALS, EA_EMAIL
 
 
 def get_access_code():

@@ -71,8 +71,13 @@ class Bot:
             EC.element_to_be_clickable((By.ID, 'btnSendCode'))
         ).click()
 
-        print("Provide EA access code and click submit button.")
+        print("Provide EA access code")
         print("Waiting 5 minutes...")
+
+        access_code = input("Access code: ")
+
+        self.driver.find_element(By.ID, 'oneTimeCode').send_keys(access_code)
+        self.driver.find_element(By.ID, 'btnSubmit').click()
 
         WebDriverWait(self.driver, 300).until(
             EC.visibility_of_element_located((By.CLASS_NAME, 'icon-transfer'))
